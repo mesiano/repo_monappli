@@ -23,19 +23,18 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
- <dependency>
-    <groupId>org.eclipse.jetty</groupId>
-    <artifactId>jetty-quickstart</artifactId>
-    <version>9.4.38.v20210224</version>
-</dependency>
-<!-- https://mvnrepository.com/artifact/org.codehaus.mojo/cobertura-maven-plugin -->
-<dependency>
-    <groupId>org.codehaus.mojo</groupId>
-    <artifactId>cobertura-maven-plugin</artifactId>
-    <version>2.7</version>
-    <scope>test</scope>
-</dependency>
-
+  <dependency>
+      <groupId>org.eclipse.jetty</groupId>
+      <artifactId>jetty-quickstart</artifactId>
+      <version>9.4.38.v20210224</version>
+  </dependency>
+  <!-- https://mvnrepository.com/artifact/org.codehaus.mojo/cobertura-maven-plugin -->
+  <dependency>
+      <groupId>org.codehaus.mojo</groupId>
+      <artifactId>cobertura-maven-plugin</artifactId>
+      <version>2.7</version>
+      <scope>test</scope>
+  </dependency>
 </dependencies>
 
 <dependencyManagement>
@@ -106,22 +105,21 @@
           <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>3.0.0</version>
   </plugin>
- <plugin>
-  <groupId>org.eclipse.jetty</groupId>
-  <artifactId>jetty-maven-plugin</artifactId>
-  <version>9.4.38.v20210224</version>
-</plugin>
-<plugin>
-<groupId>org.codehaus.mojo</groupId>
-<artifactId>cobertura-maven-plugin</artifactId>
-<configuration>
-<formats>
-<format>html</format>
-<format>xml</format>
-</formats>
-</configuration>
-</plugin>
-
+  <plugin>
+    <groupId>org.eclipse.jetty</groupId>
+    <artifactId>jetty-maven-plugin</artifactId>
+    <version>9.4.38.v20210224</version>
+  </plugin>
+  <plugin>
+    <groupId>org.codehaus.mojo</groupId>
+    <artifactId>cobertura-maven-plugin</artifactId>
+    <configuration>
+      <formats>
+      <format>html</format>
+      <format>xml</format>
+      </formats>
+    </configuration>
+  </plugin>
  </plugins>
     </pluginManagement>
   </build>
